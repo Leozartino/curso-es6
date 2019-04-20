@@ -1,0 +1,7 @@
+//O babel vai ser o cara que irá transformar as features que utilizamos no ES6 ES7 ES8
+//em uma forma que todos navegadores entendam e rodem em todos ou na maioria dos navegadores.
+
+{
+  //o present evn entende qual é o ambiente que estamos trabalhando.
+  "presets": ["@babel/preset-env"] 
+}

@@ -1,0 +1,10 @@
+O arquivo package json armazena as informações de dependências da aplicação.
+ Por exemplo, o babel que será uma dependência neste repo e entre outras.
+
+- Usando o terminal é possivel instalar as dependências.
+package.json -> Os scripts são formas de podermos executar comando no terminal
+
+O babel vai se responsabilizar em converter as features novas do EcmaScript para
+de uma forma que os browesers entendam, como a sintaxe de classe que internamente
+é uma função! Ficando salvo no arquivo .bundle.js
+
