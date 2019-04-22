@@ -32,3 +32,37 @@ document.getElementById('novoTodo').onclick = function() {
   Minhalista.add('Novo Todo');
   Minhalista.mostraUsuario();
 }
+
+//Map/Reduce
+
+const array = [1,2,3,4,5,6];
+
+const mapArray = array.map((item, index) => item + index);
+console.log(mapArray);
+
+const reduceArray = array.reduce((total, next) => total + next);
+console.log(reduceArray);
+
+const filterArray = array.filter((item) => item % 2 === 0)
+console.log(filterArray);
+
+const findArray = array.find((item) => item  === 4);
+console.log(findArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
