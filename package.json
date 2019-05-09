@@ -1,15 +1,17 @@
 {
   "name": "curso-es6",
   "version": "1.0.0",
-  "main": "operadoresRestSpread.js",
+  "main": "main.js",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
-    "@babel/preset-env": "^7.4.3"
+    "@babel/preset-env": "^7.4.3",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   },
   "scripts": {
-    "dev": "babel -w ./operadoresRestSpread.js -o ./bundle.js"
+    "dev": "babel -w ./main.js -o ./bundle.js"
   }
 }

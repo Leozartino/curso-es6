@@ -1,4 +1,4 @@
-class List {
+/* class List {
   constructor(){
     this.data = [];
   }
@@ -48,21 +48,4 @@ console.log(filterArray);
 
 const findArray = array.find((item) => item  === 4);
 console.log(findArray);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ */

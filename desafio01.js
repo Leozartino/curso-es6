@@ -1,20 +1,21 @@
-class Usuer{
- constructor(email, senha){
-   this.email = email;
-   this.senha= senha;
- }
- isAdmin(){
-  return this.admin === true;
- }
-}
-class Admin extends Usuer {
-  constructor(email, senha){
-    super(email, senha);
-    this.admin = true;
-
+class User {
+  constructor(email, password) {
+    this.email = email;
+    this.password = password;
+  }
+  isAdmin() {
+    return this.admin ? "Admin!" : "Not Admin!";
   }
 }
-const UserComum = new Usuer('leoza@gmail.com', '12356');
-const UserAdm = new Admin('admin@gmail.com', '1256');
-console.log(UserComum.isAdmin());
-console.log(UserAdm.isAdmin());
+
+class Admin extends User {
+  constructor(email, password) {
+    super(email, password);
+    this.admin = true;
+  }
+}
+
+const pessoaA = new Admin("leozartino@gmail.com", "152547xcz");
+console.log(pessoaA.isAdmin());
+const pessoaB = new User("abc@email.com", "123456789");
+console.log(pessoaB.isAdmin());
